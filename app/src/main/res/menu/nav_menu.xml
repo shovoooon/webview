@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+    </group>
+
+    <item
+        android:id="@+id/category"
+        android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_category_aj"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="আজকের নিয়োগ" />
+                <item
+                    android:id="@+id/menu_category_gj"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="Govt Jobs" />
+                <item
+                    android:id="@+id/menu_category_bj"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="Bank Jobs" />
+                <item
+                    android:id="@+id/menu_category_cj"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="Company Jobs" />
+                <item
+                    android:id="@+id/menu_category_ngo"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="NGO নিয়োগ" />
+                <item
+                    android:id="@+id/menu_category_defence"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="ডিফেন্স নিয়োগ" />
+
+                <item
+                    android:id="@+id/menu_category_fj"
+                    android:icon="@drawable/ic_baseline_card_travel_24"
+                    android:title="Friday job circular" />
+                <item
+                    android:id="@+id/menu_category_qa"
+                    android:icon="@drawable/ic_baseline_category_24"
+                    android:title="Exam Question &amp; Answer" />
+
+                <item
+                    android:id="@+id/menu_category_notice"
+                    android:icon="@drawable/ic_baseline_border_color_24"
+                    android:title="Notice" />
+
+                <item
+                    android:id="@+id/menu_category_book"
+                    android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:title="চাকরির বিভিন্ন বই" />
+
+
+                <item
+                    android:id="@+id/menu_category_yt"
+                    android:icon="@drawable/ic_baseline_ondemand_video_24"
+                    android:title="YouTube Channel" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/result"
+        android:title="Result">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_result_psc"
+                    android:icon="@drawable/ic_baseline_check_circle_24"
+                    android:title="PSC Result" />
+                <item
+                    android:id="@+id/menu_result_jsc"
+                    android:icon="@drawable/ic_baseline_check_circle_24"
+                    android:title="JSC Result" />
+                <item
+                    android:id="@+id/menu_result_ssc"
+                    android:icon="@drawable/ic_baseline_check_circle_24"
+                    android:title="SSC Result" />
+                <item
+                    android:id="@+id/menu_result_hsc"
+                    android:icon="@drawable/ic_baseline_check_circle_24"
+                    android:title="HSC Result" />
+
+                <item
+                    android:id="@+id/menu_result_nu"
+                    android:icon="@drawable/ic_baseline_check_circle_24"
+                    android:title="Nation University Result" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/app"
+        android:title="App">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_pp"
+                    android:icon="@drawable/ic_baseline_privacy_tip_24"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/menu_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/menu_rate"
+                    android:icon="@drawable/ic_baseline_star_half_24"
+                    android:title="Rate App" />
+                <item
+                    android:id="@+id/menu_close"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Close" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

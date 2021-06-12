@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "791514348665",
+    "project_id": "bd-jobs-today-app",
+    "storage_bucket": "bd-jobs-today-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791514348665:android:9556626ba29a4e29f968a8",
+        "android_client_info": {
+          "package_name": "com.bdjobs.today"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791514348665-mecanjkbcj4mjcpfnjnuts2e73552j7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bdjobs.today",
+            "certificate_hash": "1ddc03d7528acd216a1da84c2b8fa812bc1d5f66"
+          }
+        },
+        {
+          "client_id": "791514348665-8knvs9otunihgeuqh0uv6c2vb6an8m7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfMg5pNs0S_Pn2r6se8B5-lXAesciXk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791514348665-8knvs9otunihgeuqh0uv6c2vb6an8m7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
